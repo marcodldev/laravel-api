@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Work In Progress (componente)</h1>
+        <h1>Boolpress</h1>
     </div>
 </template>
 
