@@ -1,7 +1,7 @@
 <template>
   <div class="container">
 
-    <Header></Header>
+    <Header/>
 
     <!-- <WorkInProgress /> -->
 
@@ -9,9 +9,8 @@
 
     <!-- <PostList /> -->
 
-
-
     <router-view></router-view>
+
   </div>
 </template>
 

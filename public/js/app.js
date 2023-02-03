@@ -1909,7 +1909,7 @@ module.exports = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: Header
+  name: 'Header'
 });
 
 /***/ }),
@@ -2084,7 +2084,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: HomePage
+  name: 'HomePage'
 });
 
 /***/ }),
@@ -53949,7 +53949,7 @@ module.exports = function(module) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _routes_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./routes.js */ "./resources/js/routes.js");
+/* harmony import */ var _routes_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./routes.js */ "./resources/js/routes.js");
 /* harmony import */ var _views_App__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./views/App */ "./resources/js/views/App.vue");
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -53963,7 +53963,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 
 var app = new Vue({
   el: '#root',
-  router: _routes_js__WEBPACK_IMPORTED_MODULE_2__["default"],
+  router: _routes_js__WEBPACK_IMPORTED_MODULE_0__["default"],
   render: function render(h) {
     return h(_views_App__WEBPACK_IMPORTED_MODULE_1__["default"]);
   }
@@ -54328,7 +54328,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 /* harmony import */ var _views_pages_AboutUs_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./views/pages/AboutUs.vue */ "./resources/js/views/pages/AboutUs.vue");
 /* harmony import */ var _views_pages_posts_PostsIndex_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./views/pages/posts/PostsIndex.vue */ "./resources/js/views/pages/posts/PostsIndex.vue");
-/* harmony import */ var _views_pages_HomePage_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./views/pages/HomePage.vue */ "./resources/js/views/pages/HomePage.vue");
+/* harmony import */ var _views_pages_HomePage_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./views/pages/HomePage.vue */ "./resources/js/views/pages/HomePage.vue");
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
@@ -54342,7 +54342,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   routes: [{
     path: '/',
     name: 'home',
-    component: _views_pages_HomePage_vue__WEBPACK_IMPORTED_MODULE_5__["default"]
+    component: _views_pages_HomePage_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
   }, {
     path: '/about-us',
     name: 'about-us',
