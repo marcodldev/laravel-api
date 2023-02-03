@@ -4,6 +4,7 @@ Vue.use(VueRouter)
 //import dei componenti che fungono da pagine .
 import AboutUs from './views/pages/AboutUs.vue'
 import PostsIndex from './views/pages/posts/PostsIndex.vue'
+import PostShow from './views/pages/posts/PostShow.vue'
 import HomePage from './views/pages/HomePage.vue'
 
 
@@ -25,6 +26,11 @@ const router = new VueRouter({
             path: '/posts',
             name: 'posts',
             component: PostsIndex
+        },
+        {
+            path: '/posts/:id',
+            name: 'singlePost',
+            component: PostShow
         }
     ]
 });

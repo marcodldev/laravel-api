@@ -5,7 +5,11 @@
     <Loader v-if="isLoading" />
 
     <ul v-else-if="posts.length">
-      <li v-for="elem in posts" :key="elem.id">{{ elem.title }}</li>
+      <li v-for="elem in posts" :key="elem.id">
+        <router-link :to="`/posts/${elem.id}`">
+          {{ elem.title }}
+        </router-link>
+      </li>
     </ul>
     <p v-else>no post</p>
 
@@ -32,7 +36,7 @@ export default {
       pagination: {},
     };
   },
-//   props: ["posts", "isLoading", "pagination"],
+  //   props: ["posts", "isLoading", "pagination"],
   mounted() {
     this.getPosts();
   },
