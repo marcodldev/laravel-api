@@ -2156,14 +2156,18 @@ var render = function render() {
   }, [_c("router-link", {
     staticClass: "nav-link",
     attrs: {
-      to: "/posts"
+      to: {
+        name: "posts"
+      }
     }
   }, [_vm._v("Lista Posts")])], 1), _vm._v(" "), _c("li", {
     staticClass: "nav-item"
   }, [_c("router-link", {
     staticClass: "nav-link",
     attrs: {
-      to: "/about-us"
+      to: {
+        name: "about-us"
+      }
     }
   }, [_vm._v("About Us")])], 1)])])], 1)])]);
 };
