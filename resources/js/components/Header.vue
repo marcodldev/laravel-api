@@ -1,8 +1,8 @@
 <template>
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+        <div class="container">
+          <router-link class="navbar-brand" :to="'/'" >Navbar</router-link>
           <button
             class="navbar-toggler"
             type="button"
@@ -17,13 +17,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <router-link class="nav-link active" aria-current="page" :to="'/'">Home</router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Lista Posts</a>
+                <router-link class="nav-link" :to="'/posts'">Lista Posts</router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <router-link class="nav-link"  :to="'/about-us'">About Us</router-link>
               </li>
             </ul>
           </div>

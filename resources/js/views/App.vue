@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div >
 
     <Header/>
 
@@ -8,8 +8,10 @@
     <!-- <PostList :isLoading="isLoading" :posts="posts" :pagination="pagination" /> -->
 
     <!-- <PostList /> -->
+    <div class="container">
+        <router-view></router-view>
+    </div>
 
-    <router-view></router-view>
 
   </div>
 </template>
